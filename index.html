@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Formulaário de cadastro</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <section class="container">
+    <h1>Formulário de cadastro</h1>
+
+    <ul>
+      <li>Nenhum campo pode estar vazio</li>
+      <li>Usuário só poderá conter letras e/ou números</li>
+      <li>Usuário deverá ter entre 3 e 12 caracteres</li>
+      <li>Senha precisa ter entre 6 e 12 caracteres</li>
+    </ul>
+
+    <form action="/" method="POST">
+
+      <div id="name-container">
+        <label for="name-input" class="name">Nome:</label>
+        <input type="text" id="name-input" class="name">
+      </div>
+
+      <div id="surname-container">
+        <label for="surname-input" class="surname-input">Sobrenome:</label>
+        <input type="text" id="surname-input" class="surname">
+      </div>
+
+      <div id="cpf-container">
+        <label for="" class="">CPF:</label>
+        <input type="" id="" class="">
+      </div>
+
+      <div id="user-container">
+        <label for="user-input" class="user">Usuário:</label>
+        <input type="text" id="user-input" class="user">
+      </div>
+
+      <div id="password-container">
+        <label for="password-input" class="password">Senha:</label>
+        <input type="password" id="password-input" class="password">
+      </div>
+
+      <div id="passwordConfirmation-container">
+        <label for="password-confirmation-input" class="password-confirmation">Repetir senha:</label>
+        <input type="password" id="password-confirmation-input" class="password-confirmation">
+      </div>
+
+      <button>Enviar</button>
+
+    </form>
+  </section>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
